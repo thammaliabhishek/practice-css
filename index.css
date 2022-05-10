@@ -1,0 +1,26 @@
+.two{
+    color:black;
+    background-color:aqua;
+    height:200px;
+    width:200px;
+    padding:50px 40px 10px 80px;/* padding depends on the background color* and border depend on text color*/
+    border-top:10px solid red;
+    border-right:10px dotted orange;
+    border-bottom:groove 20px ;/* by default color gray*/
+    border-left:dashed black;/* by default the px is 2.4px  "we can gie only the border */
+    margin:30px;/* margin can be apply on all four sides of the box*/
+    
+}
+#one{
+    color:black;
+    background-color:aqua;
+    height:5px;
+    width:5px;
+    /*padding:50px 40px 10px 80px;*//* padding depends on the background color* and border depend on text color*/
+    border-top:100px solid   red;
+    border-right:100px solid orange;
+    border-bottom: 100px solid green;/* by default color gray*/
+    border-left:solid black 100px;/* by default the px is 2.4px  "we can gie only the border */
+    margin:30px;/* margin can be apply on all four sides of the box*/
+   
+}
