@@ -1,0 +1,7 @@
+
+.item1{
+    
+    background-color:orange;
+    display:grid;
+    grid-template-columns: auto auto ;
+}   

@@ -1,0 +1,11 @@
+.material-icon{
+    color:red;
+}
+p{
+    color:yellow;
+}
+@media (min-width:400px){
+    p{
+        color:orange;
+    }
+}

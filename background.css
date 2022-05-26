@@ -1,0 +1,19 @@
+.background{
+    height:100px;
+    width:100px;
+    border:1px solid groove;
+    
+    background-image:linear-gradient(
+        red 0% 30%,blue 30% 50%,orange 50% 60%
+    )
+}
+.radial{
+    height:100px;
+    width:100px;
+    margin:10px;
+    border:1px solid groove;
+    
+    background-image:radial-gradient(
+        red 0% 30%,blue 30% 50%,orange 50% 60%
+    )
+}

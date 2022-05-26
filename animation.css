@@ -1,0 +1,30 @@
+.item{
+    width:100px;
+    height:100px;
+    
+    background-color:red;
+    animation-name:abhi;
+    animation:abhi 1s infinite 
+}
+item1{
+    width:100px;
+    height:100px;
+    
+    background-color:orange;
+    animation-name:abhi;
+    animation:abhi 1s infinite 
+}
+
+@keyframes abhi{
+    0%{
+        width:200px;
+        height:200px;
+        background-color:blue;
+    }
+    25%{
+        width:200px;
+        height:200px;
+        background-color:brown;
+        border-radius:50%;
+    }
+}

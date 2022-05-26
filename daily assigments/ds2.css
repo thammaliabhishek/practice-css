@@ -1,0 +1,49 @@
+.flex-container{
+    background-color:orange;
+    height:40vh;
+    width:13vw;
+    border:10px red groove;
+    position:relative;
+    margin:5px;
+    display:flex;
+    background-image: url(./back2.jpg);
+   
+}
+.submit{
+    background-color:cadetblue;
+    height:60px;
+    width:60px;
+    padding:2px;
+    border-radius:50%;
+    position:absolute;
+    bottom:-30px;
+    right:60px;
+    text-decoration: underline;
+    border:2px solid black;
+}
+.text{
+    background-color:azure;
+    width:70px;
+    position:absolute;
+    left:40px;
+    top:50px;
+    border:none;
+}
+.password{
+    background-color:azure;
+    width:70px;
+    position:absolute;
+    left:40px;
+    top:100px;
+    border:none;
+}
+.forget{
+    position:absolute;
+    left:40px;
+    top:120px;
+    text-decoration: underline;
+
+}
+.one{
+    text-align: center;
+}

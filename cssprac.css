@@ -1,0 +1,32 @@
+.parent{
+    height:300px;
+    width:300px;
+    background-color:blue;
+    color:red;
+    font-size:30px;/* font size is also depend on the parent font-size*/
+    
+}
+
+.child{
+    height:50%;/*" it is also depends upon the parent height */
+    width:50%;/* "% it depend on the parents width i.e is the 50% of 300 is 150px "*/
+    background-color:burlywood;
+    padding:20%;/*"padding depends on the parents width ie is 20% of 300 is 60px"*/
+    border:10px solid;/* border cannot be in % it only be in px*/
+    font-size:30%;/* font-size depends on the parents font-size ie the 30% of 30 is 9px*/
+    
+
+}
+.parent1{
+    height:200px;
+    width:100px;
+    background-color:black;
+    margin: 100px;
+}
+.child1{
+    height:20vh;/* the veiwport width and viewport height depends on the dimensions of the browser */
+    width:10vw;
+    
+    background-color:red;
+
+}

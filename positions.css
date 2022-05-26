@@ -1,0 +1,19 @@
+.one{
+    color:white;
+    background-color:blue;
+    height:100px;
+    width:100px;
+    position:absolute;
+    top:40px;
+    left:50px;
+    margin:20px;
+}
+.two{
+
+    background-color:blue;
+    height:100px;
+    width:100px;
+    position:absolute;
+    top:40px;
+    left:50px;
+}

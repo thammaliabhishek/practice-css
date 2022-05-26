@@ -1,0 +1,28 @@
+button:enabled{
+    color:green;
+    background-color:blue;
+}
+p:empty{
+    background-color:red;
+}
+div:empty{
+    background-color:orange;
+}
+p:first-child{
+    color:red;
+}
+p:last-child{
+    color:orange;
+}
+.index{
+    border:1px solid;
+    width:90px;
+    height:20px;
+}
+.index::after{
+    content:'';
+    background-color:red;
+    width:10px;
+    height:10px;
+    border:1px solid;
+}
